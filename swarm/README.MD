@@ -14,3 +14,6 @@ Langkah
 `docker-machine ssh node2` kemudian copy paste token dari leader
 5. Coba untuk membuat service 3 replika
 `docker service create --replicas 3 alpine ping 8.8.8.8`
+`docker service ls`
+`docker node ps`
+`docker node ps node2`
