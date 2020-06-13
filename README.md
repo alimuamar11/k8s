@@ -1,9 +1,9 @@
 # Kubernetes
 1. Memulai kubernetes
 
-```#minikube start
+`#minikube start`
 
-#minikube status```
+`#minikube status`
 
 2. Melihat nodes
 
@@ -58,3 +58,7 @@
 `#kubectl delete pod namapod` atau kalo mau berdasarkan label `#kubectl delete pod -l key=value` atau kalau berdasarkan namespace `#kubectl delete pod --all --namespace namanamespace`
 
 `#kubectl delete rc namarc` secara default akan menghapus semua pod yang telah di created, maka `#kubectl delete rc namarc --cascade=false` seccara defaul `cascade=true`.
+
+```
+code fences
+```
