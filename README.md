@@ -1,9 +1,9 @@
 # Kubernetes
 1. Memulai kubernetes
 
-```#minikube start`
+```#minikube start
 
-`#minikube status```
+#minikube status```
 
 2. Melihat nodes
 
