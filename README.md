@@ -1,9 +1,9 @@
 # Kubernetes
 1. Memulai kubernetes
 
-`#minikube start`
+```#minikube start`
 
-`#minikube status`
+`#minikube status```
 
 2. Melihat nodes
 
@@ -23,20 +23,19 @@
 
 5. Melihat pod
 
-```#kubectl get pods
+`#kubectl get pods`
 
-#kubectl describe pods namapod
+`#kubectl describe pods namapod`
 
-#kukectl get pods --show-label
+`#kukectl get pods --show-label`
 
-#kukectl get pods -l key` atau `key=value` atau `#kubectl get pod --show-label -l key
+`#kukectl get pods -l key` atau `key=value` atau `#kubectl get pod --show-label -l key`
 
-#kubectl get namespace 
+`#kubectl get namespace `
 
-#kubectl get pods --namespace namanamespace
+`#kubectl get pods --namespace namanamespace`
 
-6. Membuat replicationcontroller```
-
+6. Membuat replicationcontroller
 
 `#kubectl create -f nginx-rc.yaml` fungsi replicationcontroller adh menjaga jumlah replika pod, agar pod selalu berjumlah trsebut.
 
