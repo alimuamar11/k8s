@@ -23,7 +23,7 @@
 
 5. Melihat pod
 
-`#kubectl get pods
+```#kubectl get pods
 
 #kubectl describe pods namapod
 
@@ -35,7 +35,7 @@
 
 #kubectl get pods --namespace namanamespace
 
-6. Membuat replicationcontroller`
+6. Membuat replicationcontroller```
 
 
 `#kubectl create -f nginx-rc.yaml` fungsi replicationcontroller adh menjaga jumlah replika pod, agar pod selalu berjumlah trsebut.
