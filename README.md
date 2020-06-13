@@ -1,17 +1,23 @@
 # Kubernetes
 1. Memulai kubernetes
 
-`#minikube start`
+```
+#minikube start
 
-`#minikube status`
+#minikube status
+```
 
 2. Melihat nodes
 
-`#kubectl get nodes`
+```
+#kubectl get nodes
+```
 
 3. Membuat pod
 
+```
 `#kubectl create -f nginx.yaml` nama pod unix jika membuat sama maka namespace harus dibedakan (dlm file yml, penambahan label)
+```
 
 4. Membaut pod dengan namespace
 
@@ -59,7 +65,4 @@
 
 `#kubectl delete rc namarc` secara default akan menghapus semua pod yang telah di created, maka `#kubectl delete rc namarc --cascade=false` seccara defaul `cascade=true`.
 
-```
-code fencesfasd fasddddddddddddddddddddddddddddd sfdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa fdsaaaaaaaaaaaaa fsdaaaaaaaaaa  sdfa  fa sd f as  f as df asf
-```
 adalah kita
