@@ -59,6 +59,7 @@
 
 `#kubectl delete rc namarc` secara default akan menghapus semua pod yang telah di created, maka `#kubectl delete rc namarc --cascade=false` seccara defaul `cascade=true`.
 
-```code fencesfasd fasddddddddddddddddddddddddddddd sfdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa fdsaaaaaaaaaaaaa fsdaaaaaaaaaa  sdfa  fa sd f as  f as df asf
+```
+code fencesfasd fasddddddddddddddddddddddddddddd sfdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa fdsaaaaaaaaaaaaa fsdaaaaaaaaaa  sdfa  fa sd f as  f as df asf
 ```
 adalah kita
