@@ -15,9 +15,7 @@
 
 3. Membuat pod
 
-```
 `#kubectl create -f nginx.yaml` nama pod unix jika membuat sama maka namespace harus dibedakan (dlm file yml, penambahan label)
-```
 
 4. Membaut pod dengan namespace
 
@@ -29,17 +27,21 @@
 
 5. Melihat pod
 
-`#kubectl get pods`
+```
+#kubectl get pods
 
-`#kubectl describe pods namapod`
+#kubectl describe pods namapod
 
-`#kukectl get pods --show-label`
+#kukectl get pods --show-label
+```
 
 `#kukectl get pods -l key` atau `key=value` atau `#kubectl get pod --show-label -l key`
 
-`#kubectl get namespace `
+```
+#kubectl get namespace 
 
-`#kubectl get pods --namespace namanamespace`
+#kubectl get pods --namespace namanamespace
+```
 
 6. Membuat replicationcontroller
 
@@ -55,14 +57,13 @@
 
 9. Melihat replicaset
 
-`#kubectl get replicaset` atau ``#kubectl get rs` setelah itu cek pod nya ada berapa.
+`#kubectl get replicaset` atau `#kubectl get rs` setelah itu cek pod nya ada berapa.
 
 6. Menghapus
 
-`#kubectl delete namespace namanamespace`
-
+```
+#kubectl delete namespace namanamespace
+```
 `#kubectl delete pod namapod` atau kalo mau berdasarkan label `#kubectl delete pod -l key=value` atau kalau berdasarkan namespace `#kubectl delete pod --all --namespace namanamespace`
 
 `#kubectl delete rc namarc` secara default akan menghapus semua pod yang telah di created, maka `#kubectl delete rc namarc --cascade=false` seccara defaul `cascade=true`.
-
-adalah kita
